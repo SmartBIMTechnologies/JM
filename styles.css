@@ -21,7 +21,7 @@ video{
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100vh + 50px);
+    height: calc(100vh );
     object-fit: cover;
     z-index: -1;
     opacity: 30%;
@@ -107,13 +107,16 @@ video{
 }
 .intro{
     width: 70%;
-    height: 140px;
-    background-color: #374050;
     text-align: left;    
-    margin: 1rem;
-    padding: 1rem;   
+    padding: 1rem;  
+    color: #eceff1; 
+}
+.intro h2{
+    background-color: #374050;
     border-radius: 50px; 
-    color: #eceff1;  
+}
+.intro p{
+    color: #0a141d;
 }
 h2{
     font-size: 20px;
@@ -128,7 +131,6 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 .bloque{
     width: 30%;
@@ -140,7 +142,6 @@ p{
     padding: 1rem;
     border-radius: 50px;  
  } 
-
  #Nosotros{
     width: 100%;
     height: calc(100vh - 50px);
@@ -151,6 +152,16 @@ p{
     opacity: 80%; 
     color: #eceff1; 
 }
+img{
+ width: 180px;
+ height: 180px; 
+ border-radius: 150px;
+}
+img{
+    
+    
+}
+
 #Servicios{
     width: 100%;
     height: calc(100vh - 50px);
