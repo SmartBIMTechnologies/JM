@@ -152,15 +152,12 @@ p{
     opacity: 80%; 
     color: #eceff1; 
 }
-img{
+.container img{
  width: 180px;
  height: 180px; 
  border-radius: 150px;
 }
-img{
-    
-    
-}
+
 
 #Servicios{
     width: 100%;
