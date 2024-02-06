@@ -215,7 +215,7 @@ p{
 
 #Experiencia{
     width: 100%;
-    height: calc(185vh - 50px);
+    height: calc(190vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: top;
