@@ -331,7 +331,7 @@ iframe{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid: gap 2rem;px;
-        padding: 4rem 0px;         
+        padding: 3rem 0px;         
     }
 
    
