@@ -107,13 +107,12 @@ video{
 }
 .intro{
     width: 70%;
-    text-align: left;    
-    padding: 1rem;  
+    text-align: left; 
     color: #eceff1;
 }
 .intro h2{
     background-color: #374050;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
 .intro p{
     color: #0a141d;
@@ -138,7 +137,7 @@ p{
 }
 .bloque{
     width: 30%;
-    height: 120px;
+    height: 140px;
     background-color: white;
     color: #0a141d;
     text-align: center;    
@@ -405,6 +404,65 @@ iframe{
         color: #2a8e9d;
         transform: scale(1.1);
     }
+    #Inicio{
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;     
+        opacity: 80%; 
+        color: #eceff1;       
+    }
+    .intro{
+        width: 85%;
+        text-align: left;
+        padding: 5px;
+        color: #eceff1;
+        align-items: center;
+    }
+    .intro h2{
+        background-color: #374050;
+        border-radius: 50px; 
+    }
+    .intro p{
+        color: #0a141d;
+    }
+    h2{
+        font-size: 14px;
+        padding: 5px;   
+    }
+    article{
+        padding:15px;
+        color: #0a141d;
+        font-size: 12px;
+        text-align: center;
+        display: none;
+    }
+    .intro:hover >article{
+        display: block;
+    }
+    p{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .container{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bloque{
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        color: #0a141d;
+        text-align: center;    
+        margin: 5px;
+        padding:5px;
+        border-radius: 20px;
+     } 
 
 
 
@@ -431,10 +489,16 @@ iframe{
     .pie-pagina .grupo-1 .box figure img{
         width: 50px;
     }
-    .pie-pagina .grupo-1 .box h2{
-        color: #fff;
-        font-size: 12px; 
+    .pie-pagina .grupo-1 .box {
+        width: 35%;
     }
+    .pie-pagina .grupo-1 .box h2 {
+        width: 180px;
+        font-size: 10px;
+        padding: 0px;
+        margin:0px
+    }
+
     .pie-pagina .grupo-1 .box h3{
         color: #fff;
         font-size: 10px;  
@@ -444,17 +508,25 @@ iframe{
         font-size: 12px;
         
     }
+    .pie-pagina .grupo-1 .icon-social {
+        position: absolute;
+        bottom: 90px;
+        right: 0px;
+        width: 55px;
+       
+
     .pie-pagina .grupo-1 .icon-social a{
         display: inline-block;
         text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
         color: #fff;
-        margin-right: 10px;
+        margin-right: 5px;
         background-color: #0d2033;
         text-align: center;
-        transition: all 300ms ease;    
+        transition: all 300ms ease; 
+     
     }
     .pie-pagina .grupo-1 .icon-social a:hover{
         color: #2a8e9d;
@@ -481,12 +553,6 @@ iframe{
 
 
 @media screen and (min-width:550px) and (max-width:1200px){
-    /* .pie-pagina .grupo-1 .grupo-2{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid: gap 2rem;px;
-        padding: 3rem 0px;         
-    } */
     .header{
         background-image: linear-gradient(gray,#f5f3f3);
         display: flex;
