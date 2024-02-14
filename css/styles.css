@@ -441,6 +441,8 @@ iframe{
     }
     .intro:hover >article{
         display: block;
+        background-color: white;
+        border-radius: 50px;
     }
     p{
         padding: 5px;
@@ -463,6 +465,108 @@ iframe{
         padding:5px;
         border-radius: 20px;
      } 
+
+     #Nosotros{
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;     
+        opacity: 80%; 
+        color: #eceff1; 
+    }
+
+    .bloque-1{
+        width: 60%;
+        color: #0a141d;
+        text-align: center; 
+        padding: 0px;
+        margin: 10px;
+     } 
+    .bloque-1 img{
+     width: 100px;
+     height: 100px; 
+     border-radius: 50%;
+     border:1px solid black; 
+    }
+    .integrante{
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;    
+        background-color: white; 
+        height: 35%;
+        border-radius: 20px;
+        margin:0px;
+    }
+    .cargo{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .linkedin{ 
+        border: 1px solid black;   
+        width: 20px;
+        height: 20px;
+        padding: 0px; 
+        border-radius: 5px;
+        background-color: #0a63bc;
+        position: relative;
+    }
+    .texto-nosotros{
+        display: none;
+    }
+    #Servicios{
+        width: 100%;
+        height: calc(260vh - 80px);
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;     
+        opacity: 80%; 
+        color: #eceff1; 
+    }
+    .container-2{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bloque-2{
+        width: 100%;
+        height: 70px;
+        color: #0a141d;
+        text-align: center;    
+        margin: 0px;
+        padding: 0px;
+     } 
+     .bloque-2 img{
+        margin: 10px;
+        width: 250px;
+        height: 150px; 
+        border-radius: 20px;
+        border:1px solid black;
+       }
+    .texto-bloque{
+        background-color: white;  
+        padding: 5px;
+        height: 75px;
+        border-radius: 30px;
+        border: 1px solid black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -617,6 +721,9 @@ iframe{
     }
 
 
+
+
+    
 
 
 
