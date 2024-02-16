@@ -16,7 +16,7 @@
     min-height: 100vh;
     position: relative;
 }
-video{
+.video{
     position: absolute;
     top: 0;
     left: 0;
